@@ -1,7 +1,7 @@
 def uppercases_all_letters(str):
   # Remove the `return None` code below and add your own code.
-  return None
-
+  str.upper()
+  return str.upper()
 # -----------------------------------------------------------------------------
 
 # These are the automated tests for this exercise. Do not modify them at all.

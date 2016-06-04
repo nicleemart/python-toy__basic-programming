@@ -1,6 +1,12 @@
 def filter_numbers(arr):
   # Remove the `return None` code below and add your own code.
-  return None
+  x=0
+  newarr = []
+  while x < len(arr):
+    if arr[x] <10:
+      newarr.append(arr[x])
+    x=x+1
+  return newarr
 
 # -----------------------------------------------------------------------------
 
